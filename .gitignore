@@ -1,0 +1,60 @@
+# Ignore node_modules in both frontend and backend
+/frontend/node_modules
+/backend/node_modules
+
+# Ignore build output in frontend
+/frontend/build
+/frontend/dist
+
+# Ignore .env files that may contain sensitive information
+/frontend/.env
+/backend/.env
+
+# Ignore logs
+/frontend/npm-debug.log*
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/logs
+
+# Ignore package lock and yarn lock if you don't want to track them
+/frontend/package-lock.json
+/backend/package-lock.json
+/frontend/yarn.lock
+/backend/yarn.lock
+
+# Ignore compiled output
+/backend/dist
+/backend/build
+
+# Ignore coverage files
+/frontend/coverage
+/backend/coverage
+
+# Ignore temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor specific files
+/.vscode
+/.idea
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS generated files
+*.swp
+*.bak
+*~
+
+# Ignore temporary backup files
+*.tmp
+*.temp
+*.backup
+
+# Ignore FFmpeg temporary files, if any
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.flv
+*.wmv
